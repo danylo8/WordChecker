@@ -31,6 +31,7 @@ public class WordChecker {
         ArrayList<String> result = new ArrayList<>();
         //colon takes each value in a list
         for (String word : wordList) {
+            
             if (word.startsWith(target)) {
                 result.add(word.substring(target.length()));
             }
