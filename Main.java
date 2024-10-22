@@ -34,5 +34,27 @@ public class Main
 
             ArrayList<String> resultList = wordCheckerThree.createList("cat");
             System.out.println(resultList);
+
+            WordChecker wordCheckerFour = new WordChecker();
+
+            wordCheckerFour.wordList.add("catch");
+            wordCheckerFour.wordList.add("bobcat");
+            wordCheckerFour.wordList.add("catchacat");
+            wordCheckerFour.wordList.add("cat");
+            wordCheckerFour.wordList.add("at");
+
+            ArrayList<String> resultList2 = wordCheckerFour.createList("catch");
+            System.out.println(resultList2);
+
+            WordChecker wordCheckerFive = new WordChecker();
+
+            wordCheckerFive.wordList.add("catch");
+            wordCheckerFive.wordList.add("bobcat");
+            wordCheckerFive.wordList.add("catchacat");
+            wordCheckerFive.wordList.add("cat");
+            wordCheckerFive.wordList.add("at");
+
+            ArrayList<String> resultList3 = wordCheckerFive.createList("dog");
+            System.out.println(resultList3);
         }
     }
